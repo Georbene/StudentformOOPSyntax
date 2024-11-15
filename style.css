@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+  background-image: url(images/pexels-rickyrecap-1907785.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  position: relative; /* Ensure positioning context for absolute elements */
+}
+
+.atten {
+  color: wheat;
+  text-align: center;
+  font-size: 3em; /* Responsive font size */
+  font-weight: 700;
+  background-color: rgba(62, 81, 87, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10}
+  .buttin {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .butin button {
+    margin: 0 10px;
+  }
+  .butin1, .butin2 {
+    margin-right: 10px;
+    background-color: #5c4c0c; /* Darker background for male button */
+  width: 48%; /* Set width to nearly half */
+  }
